@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- RESET CCS -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="productos.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto+Serif:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/1645550308.ico" type="image/x-icon">
+    <title>Productos-Barbera Alura</title>
+</head>
+<header>
+    <div>
+        <nav class="nav">
+            <img class="nav__img" src="img/logo.png" alt="logo">
+            
+            <ul class="nav__menu">
+                <li class="nav__item">
+                    <a href="#sobre">HOME</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#productos">PRODUCTOS</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contacto">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+     </div>
+</header> 
+<body>
+<main >
+
+    <section class="sobre" >
+        <img class="sobre__baner" src="img/banner.jpg" alt="">
+
+        <h1 id="sobre" class="sobre__title">Barbería Alura</h1>
+        <img class="sobre__img"src="img/utensilios[1].jpg" alt="">
+        <p id="sobre" class="sobre__text">Ubicada en el corazón de la ciudad, la <b> Barbería Alura </b>  trae para el mercado lo que hay de mejor para su cabello y barba.aque en la ciudad y conquista nuevos clientes diariamente. </p>
+    
+        <p class="sobre__text"> <i>Nuestra misión es: <b>"Proporcionar autoestima y calidad de vida a nuestros clientes."</b> </i></p> 
+    
+        <p class="sobre__text">Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las Fundada en 2020, la Barbería Alura ya es dest últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes. </p>
+    </section>
+    <section class="ubicacion">
+        <h1 class="ubicacion__title"> Nuestra Ubicacion
+            <p class="ubicacion__text"> Nuestro estableciomiento esta ubicado en el corazón de la ciudad</p>
+        </h1>
+        <iframe class="ubicacion__maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5156841680396!2d-64.18674813010503!3d-31.427467262803294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd42e6d28a462401!2sMuseo%20Provincial%20de%20Bellas%20Artes%20%22Emilio%20Caraffa%22%20(M.E.C.)!5e0!3m2!1ses!2sar!4v1645800881713!5m2!1ses!2sar" width="60%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="diferenciales">
+        <h2 class="diferenciales__title">Nuestro diferencial<h2>
+        <ul class="diferenciales__list">
+            <li class="diferenciales__item">Atencion personalizada a los clientes</li>
+            <li class="diferenciales__item">Espacio diferenciado</li>
+            <li class="diferenciales__item">Localización</li>
+            <li class="diferenciales__item">Profesionales calificados</li>
+        </ul>
+
+        <img class="diferenciales__img" src="img/diferenciales.jpg" alt="resurado de barba">
+
+        <iframe class="diferenciales__video" width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="productos">
+        <ul  class="menu">
+            <h2 id="productos" class="product__title">Nuestros productos</h2>
+            <li class="menu-item">
+                <h2 class="menu-item__title">Cabello</h2>
+                <img class="menu-item__img"src="img/cabello.jpg" alt="cabello">
+                <p class="menu-item__text">Con tijera o maquina, a gusto del cliente</p>
+                <p class="menu-item__text--negrita">$10.00</p>
+            </li>
+
+            <li class="menu-item">
+                <h2 class="menu-item__title"">Barba</h2>
+                <img class="menu-item__img" src="img/barba.jpg"" alt="barba">
+                <p class="menu-item__tetx">Corte y deseño profesicional de barba</p>
+                <p class="menu-item__text--negrita">$8.00</p>
+            </li>
+
+            <li class="menu-item">
+                <h2 class="menu-item__title">Cabello y Barba</h2>
+                <img class="menu-item__img" src="img/cabello+barba.jpg" alt="cabello y barba">
+                <p class="menu-item__text">Paquete completo de cabello y barba</p>
+                <p class="menu-item__text--negrita">$15.00</p>
+            </li>
+        </ul>
+    </section>
+    
+    <div class="formulario" >
+        <fieldset id="contacto"class="form">
+            <form action="">
+
+                <label class="form__item--nombre" for="nombre"> Nombre y Apellido
+                    <input class="form__input" type="text" id="nombre" placeholder="Nombre y Apellido" required>
+                </label>
+
+                <label class="form__item--telefono" for="telefono">Telefono
+                    <input class="form__input" type="number" id="telefono" placeholder="(xx) x xxxxxx" required>
+                </label>
+
+                <label class="form__item--email" for="email">Email
+                    <input class="form__input" type="email" id="email" placeholder="email@dominio.com" required>
+                </label>
+
+                <label class="form__item--submit" for="submit">
+                    <input class="form__input--submit" type="submit">
+                </label>
+
+                <textarea class="form__message" name="" id="" cols="30" rows="10"></textarea>
+
+                <h3 class="form__checkbox__text">¿Desea recibir promociones de nuestra barberia?
+                <input class="form__checkbox" type="checkbox" checked>
+                </h3>
+                <div class="container__horario">
+                    <h3 class="container__horario--text">¿En que horario le gustaria ser atendido?</h3>
+                    <select class="container__horario--dropdown" id="telefono" name="telefono" id="">
+                        <option value="lunes">Lunes</option>
+                        <option value="miercoles|">Miercoles</option>
+                        <option value="viernes">Viernes</option>
+                    </select>
+
+                    <Table class="table">
+                        <thead class="table__item">
+                            <th class="table__item">DIA</th>
+                            <th class="table__item">HORARIO</th>
+                        </thead>
+                        <tbody>
+                            <tr class="table__item">Lunes
+                                <td class="table__item">Lunes</td>
+                                <td>8 ~ 20hs</td>
+                            </tr>
+                            
+                            <tr class="table__item">Miercoles
+                                <td class="table__item">Miercoles</td>
+                                <td>8 ~ 20hs</td>
+                            </tr>
+
+                            <tr class="table__item">Viernes
+                                <td class="table__item">Viernes</td>
+                                <td>8 ~ 20hs</td>
+                            </tr>
+                        </tbody>
+                    </Table>
+                </div>
+            </form>
+            <img class="form__img" src="img/logo-blanco.png" alt="logo">
+            
+        </fieldset>
+    </div>
+
+</main>
+
+
+    
+</body>
+</html>

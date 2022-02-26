@@ -1,0 +1,290 @@
+:root{
+    --color_1:#8C9A9E;
+    --color_2:#c59849;
+    --x:150px;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    
+}
+/* ***********   NAVBAR   *********** */
+.nav{
+    background: var(--color_1);
+    width: 100%;
+}
+.nav__menu{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    margin-right: 100px;
+}
+.nav__item, .nav__item a{
+    color:black;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 0 0 8px
+}
+.nav__item a:hover{
+    color: var(--color_2)
+}
+
+.nav__img{
+    margin-left: 100px;
+}
+/* ***********   MAIN   *********** */
+main{
+    width: auto;
+}
+/* ***********   SOBRE BARBERIA ALURA   *********** */
+.sobre{
+    text-align: center;
+    background:#8C9A9E;
+}
+.sobre__baner{
+    
+    width: 100%;
+    display: block;
+}
+.sobre__title{
+    padding: 200px 0 50px 0 ;
+    font-size: 50px;
+}
+.sobre__img{
+    width: 250px;
+    float: left;
+    margin: 0 20px 0 20% ;
+}
+.sobre__text{
+    text-align: left;
+    width: 70%;
+    padding: 25px 0 0 0;    ;
+}
+/* ***********   UBICACION   *********** */
+.ubicacion {
+    background: linear-gradient(#8C9A9E, #fefefe);
+    text-align: center;
+    width: auto;
+    height: 550px;
+}
+.ubicacion__title {
+    font-size: 40px;
+    padding: 200px 0 30px 0;
+}
+.ubicacion__text{
+    padding: 20px 0 0 0;
+    font-size:20px;
+}
+
+/* ***********   DIFERENCIALES   *********** */
+.diferenciales{
+    margin: 400px 0 0 0;
+    background:#fefefe;
+    width: auto;
+    height: 800px;
+    text-align: center;
+    position: relative;
+}
+.diferenciales__title{
+    font-size: 40px;
+    text-align: center;
+}
+.diferenciales__list{
+    width: 25%;
+    position: absolute;
+    display: inline;
+    left: 450px;
+    top: 50px;
+    text-align: left;
+    margin-top: 90px;
+}
+.diferenciales__item{
+    margin: 20px 0;
+    font-weight: bold;
+}
+.diferenciales__item:before{
+    font-weight: bold;
+    content: "✧";
+}
+.diferenciales__img{
+    position: absolute;
+    width: 25%;
+    left: 800px;
+    top: 20px;
+    box-shadow: 10px 10px 20px 10px #000 ;
+    margin: 140px 0;
+}
+.diferenciales__video{
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    padding: 100px 0;
+}
+
+
+/* ***********   PRODUCTOS   *********** */
+.menu{
+    width: 55%;
+    padding: 50px;
+    background:#fefefe;
+    margin: 0 auto 200px auto;
+}
+.product__title{
+    text-align: center;
+    font-size:40px;
+    padding: 300px 0 100px 0;
+}
+.menu-item {
+    display: inline-block;
+    box-sizing: border-box;
+    width:30%;
+    text-align: center;
+    vertical-align: top;
+    border: 2.7px solid #000;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+.menu-item:hover{
+    border: 5px solid #c59849;
+}
+
+.menu-item__title, .menu-item__text--negrita{
+    font-weight: bold;
+    font-size: 26px;
+    margin-top:40px;
+}
+.menu-item__text{
+    font-size: 18;
+}
+.menu-item__text--negrita{
+    margin: 40px 0;
+}
+/* ***********   SECCTION-2   *********** */
+.formulario{
+    height: 800px;
+    background-image: url(img/bg.jpg);
+    
+}
+/* ***********   FORMULARIO   *********** */
+.form{
+    position: relative;
+    text-align: center;
+}
+.form label{
+    color: #fff;
+    display: block;
+    position: absolute;
+
+}
+.form__item--nombre{
+    left: var(--x);
+    top: 50px;
+
+}
+.form__item--telefono{
+    left: var(--x);
+    top: 100px;
+
+}
+.form__item--email{
+    left: var(--x);
+    top: 150px;
+    
+}
+.form__message{
+    position: absolute;
+    left: 350px;
+    top: 200px;
+    width: 300px;
+    border: 3px solid #c59849;
+    border-radius: 5px;
+    
+}
+
+.form__input{
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    width: 300px;
+    height:30px;
+    border: 3px solid #c59849;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center
+}
+.form__img{
+    width: 500px;
+}
+.container__horario--text{
+    left: 350px;
+    top: 400px;
+    position: absolute;
+    color: white;
+}
+.container__horario--dropdown{
+    position: absolute;
+    left: 460px;
+    top: 620px;
+}
+.table{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 450px;
+}
+.table__item{
+    padding: 10px 15px;
+    border: 1px solid #c59849;
+}
+.form__checkbox__text{
+    color: #fff;
+    position: absolute;
+    left: 300px;
+    top: 650px;
+}
+.form__item--submit{
+    left: 350px;
+    top: 700px;
+}
+.form__input--submit{
+    width: 300px;
+    height:40px;
+    background:#c59849;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 1s;
+    cursor: pointer;
+}
+.form__input--submit:hover{
+    font-size: 16px;
+    background: darkgoldenrod;
+    transform:scale(1.15)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
