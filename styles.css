@@ -6,7 +6,6 @@
 
 
 body{
-    font-family: 'Oswald', sans-serif;
     font-family: 'Roboto Serif', sans-serif;
     
 }
@@ -269,9 +268,70 @@ main{
 
 
 
+/*************************** RESPONSIVE ****************************/
 
+@media (max-width:760px){
+    /********************** NAV **********************/
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .nav__img{
+        display: inline;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        
+    }
+    .nav__menu{
+        position:static;
+        display: flex;
+        flex-direction: column;
+        text-align:center;
 
+    }
+    .nav__menu a{
+        font-size: 16px;
+        text-align: center;
+    }
+    /********************** SOBRE **********************/
+    
 
+    .sobre .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre__title{
+        font-size: 26px;
+        padding: 75px 0 0 0;
+    }
+    .sobre__img{
+        display:none;
+    }
+    .sobre__text{
+        padding-top: 10px;
+        text-align:center;
+        font-size: 12px;
+    }
+    .ubicacion{
+        display: flex;
+        flex-direction: column;
+    }
+    .ubicacion__title{
+        font-size: 26px;
+        padding: 75px 0 0 0;
+    }
+    .ubicacion__text{
+        font: size 12px;
+    }
+    .ubicacion__maps{
+        padding: 30px 0 0 0;
+    }
+
+}
 
 
 
