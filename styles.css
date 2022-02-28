@@ -305,6 +305,7 @@ main{
         align-items: center;
     }
     .sobre__title{
+        font-weight: bold;
         font-size: 26px;
         padding: 75px 0 0 0;
     }
@@ -323,10 +324,12 @@ main{
         align-items: center;
     }
     .ubicacion__title{
+        font-weight: bold;
         font-size: 26px;
         padding: 150px 0 0 0;
     }
     .ubicacion__text{
+        padding: 30px 0 0 0;
         margin: 0 auto;
         width: 50%;
         font-size: 12px;
@@ -341,22 +344,79 @@ main{
         flex-direction: column;
         padding: 150px 0 0 0;
         /* flex-wrap: 20px; */
+        /* flex-grow: 5; */
     }
     .diferenciales__title{
+        font-weight: bold;
         font-size: 26px;
+        padding-bottom: 20px;
     }
     .diferenciales__list{
         position: static;
+        font-size: 12px;
+        text-align: center
     }
     .diferenciales__img{
+        margin: 0;
+        width: 100%;
         position: static;
     }
     .diferenciales__video{
         position: static;
-
+        width: 100%;
+        padding: 100px 0 0 0;
     }
 
 
+   /********************** PRODUCTOS **********************/   
+    .menu{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        padding:0;
+    }
+
+    .menu-item{
+        width: 80%;
+        margin: 100px auto;
+        display:flex;
+        flex-direction: column;
+    }
+
+    /********************** FORMULARIO **********************/   
+    .formulario{
+        height: auto;
+        width: auto;
+    }
+    .form__img{
+        width: 100%;
+    }
+    .form__form{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .form label{
+        position:static;
+    }
+    .form input{
+        position:static;
+    }
+    .form__message{
+        position: static;
+    }
+    .table{
+        position: static;
+    }
+    .container__horario--dropdown{
+        position: static;
+    }
+    .form__checkbox__text{
+        position: static;
+    }
+    .container__horario--text{
+        position: static;
+    }
 }
 
 
