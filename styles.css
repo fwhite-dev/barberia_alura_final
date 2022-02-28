@@ -316,20 +316,46 @@ main{
         text-align:center;
         font-size: 12px;
     }
+    /********************** UBICACION **********************/
     .ubicacion{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .ubicacion__title{
         font-size: 26px;
-        padding: 75px 0 0 0;
+        padding: 150px 0 0 0;
     }
     .ubicacion__text{
-        font: size 12px;
+        margin: 0 auto;
+        width: 50%;
+        font-size: 12px;
     }
     .ubicacion__maps{
         padding: 30px 0 0 0;
     }
+    /********************** DIFERENCIAL **********************/
+    .diferenciales{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 150px 0 0 0;
+        /* flex-wrap: 20px; */
+    }
+    .diferenciales__title{
+        font-size: 26px;
+    }
+    .diferenciales__list{
+        position: static;
+    }
+    .diferenciales__img{
+        position: static;
+    }
+    .diferenciales__video{
+        position: static;
+
+    }
+
 
 }
 
