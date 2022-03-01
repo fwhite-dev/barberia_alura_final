@@ -291,11 +291,14 @@ main{
         display: flex;
         flex-direction: column;
         text-align:center;
+        row-gap: 10px;
 
     }
     .nav__menu a{
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
+        border-bottom: 2px solid #000;
+        
     }
     /********************** SOBRE **********************/
     
@@ -316,7 +319,7 @@ main{
     .sobre__text{
         padding-top: 10px;
         text-align:center;
-        font-size: 12px;
+        font-size: 14px;
     }
     /********************** UBICACION **********************/
     .ubicacion{
@@ -333,7 +336,7 @@ main{
         padding: 30px 0 0 0;
         margin: 0 auto;
         width: 50%;
-        font-size: 12px;
+        font-size: 14px;
         font-weight: normal;
     }
     .ubicacion__maps{
