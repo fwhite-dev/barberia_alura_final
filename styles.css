@@ -134,7 +134,8 @@ main{
 }
 .product__title{
     text-align: center;
-    font-size:40px;
+    font-weight: bold;
+    font-size:26px;
     padding: 300px 0 100px 0;
 }
 .menu-item {
@@ -353,18 +354,20 @@ main{
     }
     .diferenciales__list{
         position: static;
-        font-size: 12px;
-        text-align: center
+        font-size: 16px;
+        text-align: center;
     }
+
     .diferenciales__img{
-        margin: 0;
+        margin: 50px 0;
         width: 100%;
         position: static;
     }
     .diferenciales__video{
         position: static;
         width: 100%;
-        padding: 100px 0 0 0;
+        margin-top: 50px;
+        padding: 0px 0 150px 0;
     }
 
 
@@ -377,8 +380,8 @@ main{
     }
 
     .menu-item{
-        width: 80%;
-        margin: 100px auto;
+        width: 70%;
+        margin: 50px auto;
         display:flex;
         flex-direction: column;
     }
